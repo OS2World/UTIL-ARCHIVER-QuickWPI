@@ -1,0 +1,28 @@
+FILE_ID.DIZ
+
+0.18.2 - recognized "README"-type files
+Any suggestions which ones are missing?
+(i don't care about html)
+
+
+README
+LIESMICH
+LISEZ.MOI
+README.1ST
+READ.ME
+README.DOC
+README.TXT
+README.OS2
+LIESMICH.TXT
+README.ENG
+README.GER
+FILE_ID.DIZ
+HISTORY
+CHANGES.TXT
+CHANGELOG
+
+<basename>.TXT
+<basename>.DOC
+<basename>.OS2
+<basename>.NFO
+

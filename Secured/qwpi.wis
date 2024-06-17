@@ -1,0 +1,68 @@
+<WARPIN>
+<HEAD>
+<PCK INDEX="1"
+      PACKAGEID="AUTHOR\qwpi\qwpi\1\0\0"
+      TARGET="?:\Tools\qwpi"      SELECT
+      TITLE="qwpi"
+      CREATEOBJECT="WPProgram|qwpi|<WP_DESKTOP>|EXENAME=$(1)\qwpi.exe;OBJECTID=<qwpi>;"
+      >This package installs qwpi</PCK>
+</HEAD>
+<BODY>
+<PAGE INDEX="1" TYPE="TEXT">
+<NEXTBUTTON TARGET="2">~Next</NEXTBUTTON>
+<TEXT>
+Welcome!
+
+This package installs qwpi on your system
+
+Select "Next" to continue
+Select "Cancel" to abort installation</TEXT>
+</PAGE>
+<PAGE INDEX="2" TYPE="README">
+<NEXTBUTTON TARGET="3">~Next</NEXTBUTTON>
+<README EXTRACTFROMPCK="1">README</README>
+<TEXT>
+Select "Next" to continue.
+Select "Cancel" to abort installation.</TEXT>
+</PAGE>
+<PAGE INDEX="3" TYPE="README">
+<NEXTBUTTON TARGET="4">~Next</NEXTBUTTON>
+<README EXTRACTFROMPCK="1">README.TXT</README>
+<TEXT>
+Select "Next" to continue.
+Select "Cancel" to abort installation.</TEXT>
+</PAGE>
+<PAGE INDEX="4" TYPE="README">
+<NEXTBUTTON TARGET="5">~Next</NEXTBUTTON>
+<README EXTRACTFROMPCK="1">FILE_ID.DIZ</README>
+<TEXT>
+Select "Next" to continue.
+Select "Cancel" to abort installation.</TEXT>
+</PAGE>
+<PAGE INDEX="5" TYPE="TEXT">
+<NEXTBUTTON TARGET="6">~Next</NEXTBUTTON>
+<TEXT>
+Important information
+
+This package is generated automatically by QWPI
+
+Since the file "README" has not been found
+during archive creation, you are strongly encouraged
+to look into the installation directory to find
+information about the product you are about to install.
+
+Select "Next" to continue
+Select "Cancel" to abort installation</TEXT>
+</PAGE>
+<PAGE INDEX="6" TYPE="CONTAINER">
+<NEXTBUTTON TARGET="7">~Next</NEXTBUTTON>
+<TEXT>
+You can remove the package by deselecting it, else just press "Next" to go on</TEXT>
+</PAGE>
+<PAGE INDEX="7" TYPE="TEXT">
+<NEXTBUTTON TARGET="0">I~nstall</NEXTBUTTON>
+<TEXT>
+Press "Install" to begin installing this archive.</TEXT>
+</PAGE>
+</BODY>
+</WARPIN>
